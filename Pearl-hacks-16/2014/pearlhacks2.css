@@ -1,0 +1,457 @@
+@font-face{
+	font-family:LMP;
+	src:url('LittleMissPriss.ttf');
+}
+html { 
+  width:100%;
+  height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+h1, h2, h3, h4, p {
+	font-family:LMP;
+	font-weight:normal;
+	color:#000;
+}
+#social-media {
+	position:fixed;
+	top:0px;
+	right: 10px;
+	width:50px;
+	z-index: 50;
+}
+.twitter-follow-button {
+	float:right;
+}
+.facebook {
+	margin-top:5px;
+	float:right;
+}
+
+#logo {
+	margin:0px 0 0 7%;
+	width:40%;
+}
+
+#main-options {
+	position: absolute;
+	top:60px;
+	right:40px;
+	width:400px;
+}
+h2 {
+	font-size:36px;
+	line-height:34px;
+	text-align: center;
+	letter-spacing: 1px
+}
+.button {
+	height:73px;
+	width:200px;
+	border:1px solid #000;
+	border-radius: 35px;
+	float:left;
+	padding:10px 20px;
+}
+.short {
+	height:39px;
+}
+#register {
+	width:130px;
+	margin:15px;
+	float:right;
+	border-radius: 40px;
+
+}
+#sponsor {
+	width:140px;
+	margin:15px;
+	float:right;
+	border-radius: 40px;
+	margin-right:0px;
+}
+.button:hover {
+	color:#AD1933;
+	border-color: #AD1933;
+}
+#resources {
+	width:370px;
+	margin:15px;
+	float:right;
+	margin-right:-10px;
+}
+#why {
+	width:100%;
+}
+#why h4 {
+	font-size:50px;
+	line-height:30px;
+	margin:0;
+	width:100%;
+	text-align:center;
+}
+ul {
+	padding:0;
+}
+#why p {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 300;
+	font-size:20px;
+	width:100%;
+	color:#000;
+	margin:20 0;
+	margin-bottom: 20px;
+}
+
+#about {
+	width:100%;
+	position:absolute;
+	top:720px;
+	display:none;
+	background-color: #AD1933;
+	color:#f3e360;
+	z-index: 10;
+}
+#about a {
+	color:#fff;
+	text-decoration: none;
+}
+#about a:hover {
+	color:#fff;
+	text-decoration: underline;
+}
+#about h2 {
+	font-family: Alegreya Sans;
+	font-weight:300;
+	color:#f3e360;
+	text-align:left;
+	font-size:18px;
+	line-height:24px;
+	margin:30px 9%;
+}
+#about h2 em {
+	font-size:34px;
+	font-style: normal;
+	font-weight:300;
+	font-size:24px;
+	line-height: 34px
+}
+
+
+#about #highlight {
+	
+	text-align:center;
+	line-height:30px;
+	font-size:22px;
+	margin-bottom:50px;
+}
+#about #highlight em {
+	font-family:LMP;
+	font-size:50px;
+	line-height:48px;
+	font-weight:400;
+}
+#about #FAQ em {
+	line-height:30px;
+	font-size:32px;
+}
+#about .column {
+	width:22%;
+	float:left;
+	margin:10px 4%;
+	
+}
+#about h2:nth-child(3), #about h2:nth-child(6), #about h2:nth-child(9) {
+	margin:10px 5% 10px 9%;
+}
+#about .intext {
+	font-size:22px;
+
+	
+}
+#about #highlight .small {
+	font-size:35px;
+	line-height: 65px;
+}
+#recap {
+	width:100%;
+	position:absolute;
+	top:550px;
+	margin-top:100px;
+	font-size:30px;
+}
+	#recap h1{
+		text-align: center;
+		letter-spacing: 2px
+
+	}
+	#recap img {
+		width:100%;
+	}
+	.img{
+		width:25%;
+	}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+#prizes {
+	text-align: center;
+	float:left;
+	width:50%;
+	height:500px;
+}
+#prizes h3 {
+	font-size: 50px;
+	line-height: 70px;
+	margin:0;
+	padding:0;
+}
+#prizes p {
+	font-size: 40px;
+	line-height: 30px;
+	margin:0;
+	padding:0;
+}
+#sponsors {
+	position:absolute;
+	top:1810px;
+	left:10%;
+	width:80%;
+}
+#sponsors .title {
+	font-size:70px;
+	text-align: center;
+	margin:0;
+}
+#sponsors .subtitle {
+	font-size:24px;
+	line-height:45px;
+	text-align: center;
+	margin:0;
+	font-family:Alegreya Sans;
+	font-weight:300;
+}
+#sponsors #get-involved {
+	margin-top:400px;
+	
+	font-size:27px;
+}
+
+#sponsors img {
+	width:30%;
+	margin:20px 10%;
+	float:left;
+}
+#sponsor2 {
+	width:40%;
+	margin:35px 30%;
+	height:45px;
+}
+
+@media screen and (min-width: 1060px) {
+	#main-options {
+		top:100px;
+		width:480px;
+		right:50px;
+	}
+	.button {
+		height:80px;
+	}
+	.short {
+		height:45px;
+	}
+	#register {
+		width:160px;
+		font-size:45px;
+		line-height:38px;
+	}
+	#sponsor {
+		width:170px;
+		font-size:45px;
+		line-height:38px;
+		margin-right:20px;
+	}
+	#resources {
+		margin-right:35px;
+	}
+	#why p {
+		margin-bottom: 40px;
+	}
+	#sponsors #femgineer {
+		margin-bottom:10px;
+	}
+	#sponsors {
+		top:1800px;
+	}
+}
+
+@media screen and (min-width: 1420px) {
+	#sponsors {
+		top:2060px;
+	}
+}
+@media screen and (min-width: 1220px) {
+	#main-options {
+		width:560px;
+		right:60px;
+	}
+	#sponsors {
+		top:1860px;
+	}
+	#sponsor {
+		margin-right:60px;
+	}
+	#resources {
+		margin-right:75px;
+	}
+
+}
+
+@media screen and (max-width: 870px) {
+	#logo {
+		width:50%;
+		margin:40px 25%;
+	}
+	#main-options {
+		width:70%;
+		right:15%;
+		top:620px;
+	}
+	#about, #recap {
+		top:1000px;
+	}
+	#sponsors {
+		top:2390px;
+
+	}
+	#sponsor {
+		margin-right:65px;
+	}
+	#resources {
+		margin-right:60px;
+		width:350px;
+		margin-bottom:50px;
+	}
+	#why p {
+		font-size:17px;
+	}
+	#sponsor2 {
+		width:60%;
+	margin:30px 15%;
+
+	}
+	#sponsors #femgineer {
+		margin-bottom:40px;
+	}
+	
+}
+@media screen and (max-width: 620px) {
+	#logo {
+		width:60%;
+		margin:40px 20%;
+	}
+	#main-options {
+		top:520px;
+	}
+	#register {
+		width:230px;
+		margin-right: 37px;
+		height:39px;
+	}
+	#about, #recap {
+		top:1000px;
+	}
+	#sponsor {
+		width:270px;
+		margin-right: 17px;
+		height:39px;
+	}
+	#resources {
+		margin-right:-20px;
+	}
+	#sponsors {
+		top:2700px;
+	}
+	#sponsors img {
+		width:40%;
+		margin:20px 5%;
+	}
+	#sponsor2 {
+		width:80%;
+	margin:30px 5%;
+	}
+	#sponsors .subtitle {
+		font-size:24px;
+		line-height:35px;
+	}
+	#about .column {
+		width:70%;
+		float:left;
+		margin:10px 15%;
+		
+	}
+	#about h2:nth-child(3), #about h2:nth-child(6) {
+		margin:10px 15%;
+	}
+	ul {
+		padding:0 30px;
+	}
+	
+}
+
+@media screen and (max-width: 440px) {
+	#logo {
+		width:70%;
+		margin:40px 15%;
+	}
+	#main-options {
+		top:460px;
+		width:80%;
+		right:10%;
+	}
+	#register {
+		margin-right:7px;
+	}
+	#sponsor {
+		margin-right:-15px;
+	}
+	#resources {
+		width:300px;
+		margin-right:-29px;
+	}
+	#prizes{
+		width:100%;
+		margin-top:900px;
+	}
+	#recap .left {
+		display:none;
+	}
+	#recap .img {
+		width:80%;
+		margin:20px 10%;
+		float:none;
+		position:absolute;
+		top:180px;
+	}
+	#sponsor2 {
+		height:108px;
+		
+	}
+	#sponsors img {
+		width:80%;
+	}
+	#sponsors {
+		top:3300px;
+	}
+	.img {
+		width:50%;
+	}
+	
+}

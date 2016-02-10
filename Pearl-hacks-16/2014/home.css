@@ -1,0 +1,70 @@
+
+/*****  CSS RESET   *****/
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding:0;
+}
+html {
+    height: 100%;
+    width:100%;
+    }
+body {
+    min-height: 800px;
+    margin: 0;
+    padding: 0
+    }
+.container, .row {
+	padding:0;
+	margin:0;
+	width:100%;
+}
+.logo {
+	padding:0;
+	margin:0;
+	margin-top:30px;
+	width:55%;
+	float:left;
+}
+.logo img {
+	margin:0 10%;
+}
+
+.home-menu {
+	width:45%;
+	float:left;
+}
+.home-menu .rectangle {
+	height:100px;
+}
+.red {
+	background-color: #FC5250;
+}
+.yellow {
+	background-color: #FCE649;
+}
+.blue {
+	background-color: #55B1F5;
+}
+.green {
+	background-color: #00943D;
+}
+a, a:hover {
+	text-decoration: none;
+	color:#000;
+}
+h1 {
+	font-family: LMP;
+	text-align: center;
+	font-size:70px;
+	color:#000;
+	padding:13px;
+	font-weight:300;
+}
+@media screen and (max-width: 600px) {
+	.logo{
+		width:100%;
+	}
+	.home-menu {
+		width:100%;
+	}
+}

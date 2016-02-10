@@ -1,0 +1,94 @@
+@font-face{
+	font-family:LMP;
+	src:url('LittleMissPriss.ttf');
+}
+html { 
+  width:100%;
+  height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+}
+.header {
+	background-color: #fff;
+	z-index:1;
+	height:100px;
+}
+.header #home {
+	width:230px;
+	float:left;
+	z-index:20;
+}
+h4 {
+	float:left;
+	font-size:40px;
+	font-family:LMP;
+	margin-top:30px;
+
+}
+
+h6 {
+	font-family: LMP;
+	font-size:35px;
+}
+#benefits {
+	margin-top:30px;
+}
+#email-us {
+	font-family: Alegreya Sans;
+	font-weight:500;
+	margin-top:30px;
+	font-size:22px;
+	text-align:center;
+}
+p {
+	font-size:18px;
+	font-family: Alegreya Sans;
+	font-weight:300;
+}
+p strong {
+	line-height:40px;
+	font-weight:500;
+}
+#note {
+	line-height: 18px;
+}
+a {
+	color:black;
+	margin:0;
+	padding:0;
+}
+a:hover {
+	color: #AD1933;
+}
+.header .row {
+	border-bottom:1px solid black;
+	height:100px;
+}
+.pearl-nav .about {
+	}
+.scrolling-body {
+	padding-top:150px;
+	z-index:-20;
+}
+.scrolling-body .container {
+	
+}
+.left-column {
+	margin-left:5%;
+}
+#wish-list {
+	font-size:18px;
+	font-family: Alegreya Sans;
+	font-weight:300;
+	padding-left:10px;
+}
+
+
+@media (max-width: 992px) {
+	.left-column {
+	margin-left:0%;
+}
+}

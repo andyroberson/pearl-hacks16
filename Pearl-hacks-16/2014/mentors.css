@@ -1,0 +1,352 @@
+/*****  CSS RESET   *****/
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+    padding:0;
+}
+html {
+    height: 100%;
+    width:100%;
+    }
+body {
+    min-height: 800px;
+    margin: 0;
+    padding: 0
+    }
+.container, .row {
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+header {
+	height:60px;
+}
+header a, header a:hover {
+	color:#000;
+	padding:0;
+	margin:0;
+}
+	.home {
+		width:28%;
+		float:left;
+		height:100%;
+	}
+		.home h4 {
+			font-family: LMP;
+			font-size:50px;
+			margin-top:5px;
+			float:left;
+		}
+		.home img {
+			width:72px;
+			margin:3px 10px 0 18%;
+			float:left;
+		}
+	.mobile {
+		display:none;
+	}
+	.nav {
+		width:17%;
+		float:left;
+		height:100%;
+		font-family:LMP;
+		text-align:center;
+		font-size:45px;
+	}
+		
+		.schedule {
+			background-color: #FC5250;
+		}
+		.mentors {
+			background-color: #F3E360;
+		}
+		.twitter {
+			background-color:#55B1F5;
+		}
+		.directions {
+			background-color:#00943D;
+			width:21%;
+			padding-right:4%;
+		}
+
+.skills {
+	background-color:#F3E360;
+	margin:0;
+	padding:0;
+}
+.skills h5 {
+	margin:0 0 0 15px;
+	padding:20px 0 10px 20px;
+	font-family:"Alegreya Sans", sans-serif;
+	font-size:20px;
+	font-weight:300;
+	border-bottom: 1px solid #000;
+}
+.skills ul {
+	list-style-type: none;
+	margin-left:15px;
+	padding:0;
+}
+	.skills ul li {
+		padding:7px 20px 3px 20px;
+		font-family: 'Alegreya Sans', sans-serif;
+		font-size:16px;
+		font-weight:300;
+	}
+	.skills ul li:last-child {
+		margin-bottom:20px;
+	}
+	.skills ul li:hover {
+		background-color: #fff;
+	}
+.col-md-8 {
+	margin:0;
+	padding:0;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+	.register {
+		font-family:'Alegreya-Sans', sans-serif;
+		border-radius: 15px;
+		padding:5px 20px;
+		width:200px;
+		height:30px;
+		box-shadow: none;
+		color:#000;
+		border:none;
+		outline:none;
+		background-color: #F3E360;
+		position:absolute;
+		top:90px;
+		right:-20px;
+		position:fixed;
+		
+	}
+		::-webkit-input-placeholder { /* WebKit browsers */
+		    color:    #000;
+		}
+		:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		    color:    #000;
+		}
+		::-moz-placeholder { /* Mozilla Firefox 19+ */
+		    color:    #000;
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10+ */
+		    color:    #000;
+		}
+	.mentor-list {
+		margin-top:30px;
+		list-style-type: none;
+		padding:0;
+	}
+		.mentor-list li {
+			width:40%;
+			margin:5%;
+			float:left;
+			height:150px;
+			margin-bottom:100px;
+		}
+			.mentor-list li .logo {
+				width:94%;
+				margin:0 3%;
+			}
+			.mentor-list li a {
+				font-size:20px;
+				padding-left:30px;
+			}
+			.mentor-list li:last-child {
+				margin-bottom:50px;
+			}
+			.mentor-list .other-mentors {
+				margin-top:150px;
+			}
+	.search_list {
+		
+		list-style-type: none;
+
+	}		
+	.search_list li {
+		margin:10px 10%;
+		width:80%;
+		font-size:20px;
+	}
+	h1 {
+		display:none;
+	}
+	h2 {
+		margin-left:7%;
+		margin-top:50px;
+		width:65%;
+	}
+
+@media screen and (max-width: 1100px) {
+	.home {
+		width:31%;
+	}
+		.home img {
+				margin:3px 5px 0 7%;
+			}
+		.home h4 {
+			font-size:45px;
+			margin-top:8px;
+		}
+	.nav {
+		width:17%;
+		font-size:40px;
+		padding-top:5px;
+	}
+	.directions {
+			width:18%;
+			padding-right:0;
+		}
+	.mobile {
+		display:none;
+	}
+
+}
+@media screen and (max-width: 800px) {
+	.skills {
+		display: none;
+	}
+	.home {
+		width:80%;
+	}
+	.nav {
+		width:100%;
+		text-align: right;
+		padding-right:30px;
+	}
+	.mobile {
+		display:block;
+		height:60px;
+		text-align: center;
+		font-size:22px;
+	}
+	.mobile .m-nav{
+		padding:9px 3%;
+		height:100%;
+		width:16%;
+		float:left;
+		background-color: #FC5250;
+	}
+	.home {
+		display:none;
+	}
+	.mobile .line{
+		width:90%;
+		margin-top:8px;
+		height:3px;
+		background-color: #fff;
+		opacity:.5;
+
+	}
+	.mobile .show-skills {
+		background-color:#F3E360;
+		width:33%;
+		height:100%;
+		float:left;
+		padding-top:16px;
+	}
+	.mobile .show-companies {
+		width:51%;
+		height: 100%;
+		float:left;
+		padding-top:16px;
+	}
+	.register {
+		border-radius:0;
+		margin:0;
+		height:40px;
+		padding-top:7px;
+		padding-left:10%;
+		width:50%;
+		bottom:0px;
+		font-size:28px;
+		position:fixed;
+		background-color: #00943D;
+		color:#000;
+		font-family:LMP;
+		letter-spacing: 1px
+	}
+	.search_list {
+		margin-top:25px;
+	}
+		h1 {
+		display:inline;
+		line-height: 26px;
+		margin-left:15px;
+		float: left;
+		margin-top:20px;
+	}
+	h2 {
+		width:100%;
+		margin:20px 0px 10px 30px;
+		float:left;
+	}	
+}
+@media screen and (max-width: 500px) {
+	.register {
+		width:66%;
+		padding-left:5%;
+		
+	}
+	.mentor-list {
+		padding:0;
+		margin:0;
+	}
+	.mentor-list li {
+			width:76%;
+			margin:40px 12%;
+		}
+		.mentor-list li .logo {
+				width:90%;
+				margin:0 5%;
+			}
+	.search_list {
+		margin-top:25px;
+		padding:0 6%;
+	}
+	.mobile {	
+		height:45px;
+		font-size:20px;
+	}
+	.mobile .m-nav{
+		padding:6px 3%;
+	}
+	.mobile .line{
+		margin-top:6px;
+	}
+	.mobile .show-skills {
+		
+		padding-top:8px;
+	}
+	.mobile .show-companies {
+		width:51%;
+		height: 100%;
+		float:left;
+		padding-top:8px;
+	}
+	h2 {
+		font-size:20px;
+		width:100%;
+		margin:0;
+		margin-bottom:20px;
+	}
+	h2, h1 {
+		float:left;
+		margin-top:20px;
+		}
+	h1 {
+		line-height: 18px;
+		font-size:20px;
+	}
+
+	.search_list li {
+		font-size:16px;
+		padding:0;
+		margin:5px 3%;
+		width:90%;
+	}
+}
+

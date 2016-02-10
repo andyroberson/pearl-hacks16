@@ -1,0 +1,171 @@
+@font-face{
+	font-family:LMP;
+	src:url('LittleMissPriss.ttf');
+}
+
+html { 
+  background: url(Pearls_bg.png) no-repeat; 
+  background-size: 850px;
+  width:100%;
+  height:100%;
+}
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+}
+h1, h2, h3, h4, p {
+	font-family:LMP;
+	font-weight:normal;
+	color:#000;
+}
+h3 {
+	font-size:40px;
+	line-height:26px;
+}
+h4 {
+	font-size:30px;
+	line-height:20px;
+}
+#title {
+	font-size:130px;
+	position: absolute;
+	top:54px;
+	right:40px;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+}
+#subtitle {
+	
+	position:absolute;
+	top:140px;
+	right:60px;
+	width:400px;
+	text-align: right;
+}
+#main-options {
+	position: absolute;
+	top:290px;
+	right:60px;
+}
+#bottom-options {
+	position: absolute;
+	top:800px;
+	left:80px;
+}
+#main-options h2, #bottom-options h2, h2 {
+	font-size:50px;
+	line-height:37px;
+	text-align: center;
+}
+.button {
+	height:80px;
+	width:200px;
+	border:1px solid #000;
+	border-radius: 20px;
+	float:left;
+	margin:0 20px;
+	padding:7px;
+}
+.short {
+	height:40px;
+	width:150px;
+}
+#why {
+	
+	margin-top:450px;
+	margin-left:100px;
+	height:1000px;
+}
+#why img {
+	position:absolute;
+	top:320px;
+	right:0px;
+	width:350px;
+}
+#why h4 {
+	font-size:50px;
+	line-height:30px;
+	margin:0;
+}
+#why p {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
+	font-size:18px;
+	width:350px;
+	color:#616161;
+	margin:20 0;
+
+}
+#sponsor-title {
+	font-size:70px;
+	position: absolute;
+	top:900px;
+	width:100%;
+	text-align: center;
+}
+#sponsor-subtitle {
+	position: absolute;
+	top:990px;
+	width:100%;
+	text-align: center;
+}
+#sponsor-subtitle-2 {
+	position: absolute;
+	top:1190px;
+	left:20%;
+	
+	
+}
+.sponsor {
+	position:absolute;
+	top:1270px;
+	left:22%;
+	width:430px;
+}
+
+@media screen and (min-width: 890px) {
+	#title {
+		right:80px;
+	}
+	#subtitle {
+		right:110px;
+	}
+	#why img {
+		width:470px;
+		top:290px;
+	}
+
+	
+}
+@media screen and (min-width: 1010px) {
+	#title {
+		top:41px;
+		right:160px;
+		font-size:140px;
+	}
+	#subtitle {
+		right:190px;
+	}
+	#main-options {
+		right:120px;
+	}
+}
+@media screen and (min-width: 1170px) {
+	#title {
+		right:250px;
+	}
+	#subtitle {
+		right:280px;
+	}
+	#main-options {
+		right:210px;
+	}
+	#bottom-options {
+		left:120px;
+	}
+	#why {
+		margin-left:140px;
+	}
+
+}

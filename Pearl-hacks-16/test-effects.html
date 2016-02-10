@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="shortcut icon" href="MLH_small.png" type="image/x-icon">
+		<title>Pearl Hacks</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="" />
+		<meta name="keywords" content="Pearl Hacks Women Hackathon Girl High school college UNC North Carolina Chapel Hill" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+		<!--Open Sans font from Google Fonts API-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+		<!--Source Sans Pro font from Google Fonts API-->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700' rel='stylesheet' type='text/css'>
+
+
+	</head>
+<body>
+  <div class="wave-container">
+  <div class="wavebase"></div>
+  <div class="wavecap" id="w1"></div>
+  <div class="wavecap" id="w2"></div>
+  <div class="wavecap" id="w3"></div>
+  <div class="wavecap2" id="w4"></div>
+  <div class="wavecap2" id="w4"></div>
+  <div class="wavecap2" id="w6"></div>
+</div>
+</div>
+</body>
+<style>
+.wave-container {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.wavebase {
+  background: navy;
+  width: 100%;
+  bottom: 0px;
+  height: 110px;
+  position: absolute;
+}
+
+.wavecap {
+  bottom: 85px;
+  height: 50px;
+  border-radius: 950px;
+  width: 50%;
+  background: navy;
+  left: -50px;
+  position: absolute;
+}
+
+.wavecap2 {
+  bottom: 85px;
+  height: 50px;
+  border-radius: 950px;
+  width: 50%;
+  background: navy;
+  right: -50px;
+  position: absolute;
+}
+
+#w1 {
+  animation:wave 25s infinite ease-in-out;
+  -webkit-animation:wave 25s infinite ease-in-out;
+  -o-animation:wave 25s infinite ease-in-out;
+  -moz-animation:wave 25s infinite ease-in-out;
+}
+
+#w2 {
+  width: 40%;
+  left: 20%;
+  border-radius: 70px;
+  animation:wave 15s infinite ease-in-out;
+  -webkit-animation:wave 15s infinite ease-in-out;
+  -o-animation:wave 15s infinite ease-in-out;
+  -moz-animation:wave 15s infinite ease-in-out;
+}
+
+#w3 {
+  left: 50%;
+  border-radius: 70px;
+  nimation:wave 10s infinite ease-in-out;
+  -webkit-animation:wave 10s infinite ease-in-out;
+  -o-animation:wave 10s infinite ease-in-out;
+  -moz-animation:wave 10s infinite ease-in-out;
+}
+
+#w4 {
+  animation:wave2 25s infinite ease-in-out;
+  -webkit-animation:wave2 25s infinite ease-in-out;
+  -o-animation:wave2 25s infinite ease-in-out;
+  -moz-animation:wave2 25s infinite ease-in-out;
+}
+
+#w5 {
+  animation:wave 15s infinite ease-in-out;
+  -webkit-animation:wave 15s infinite ease-in-out;
+  -o-animation:wave 15s infinite ease-in-out;
+  -moz-animation:wave 15s infinite ease-in-out;
+}
+
+#w6 {
+  animation:wave 35s infinite ease-in-out;
+  -webkit-animation:wave 35s infinite ease-in-out;
+  -o-animation:wave 35s infinite ease-in-out;
+  -moz-animation:wave 35s infinite ease-in-out;
+}
+
+@keyframes wave {
+  0%{left:-10%;}
+  2%{left: 0%; bottom: 30px;}
+  10%{left: 20%; bottom: 85px;}
+  20%{left: 40%; bottom: 30px;}
+  30%{left: 60%; bottom: 85px;}
+  40%{left: 80%; bottom: 60px;}
+  50%{left: 100%; bottom: 85px;}
+  60%{left: 80%; bottom: 30px;}
+  70%{left: 60%; bottom: 85px;}
+  80%{left: 40%; bottom: 60px;}
+  90%{left: 20%; bottom: 80px;}
+  99%{left: 0%; bottom: 45px;}
+  100%{left: -10%; bottom: 85px;}
+}
+
+@keyframes wave2 {
+  0%{right:-10%;}
+  2%{right: 0%; bottom: 30px;}
+  10%{right: 20%; bottom: 85px;}
+  20%{right: 40%; bottom: 30px;}
+  30%{right: 60%; bottom: 85px;}
+  40%{right: 80%; bottom: 60px;}
+  50%{right: 100%; bottom: 85px;}
+  60%{right: 80%; bottom: 30px;}
+  70%{right: 60%; bottom: 85px;}
+  80%{right: 40%; bottom: 60px;}
+  90%{right: 20%; bottom: 80px;}
+  99%{right: 0%; bottom: 45px;}
+  100%{right: -10%; bottom: 85px;}
+}
+
+</style>
+</html>

@@ -1,0 +1,108 @@
+/*.container{   
+    padding-top: 30px;
+    margin-top: -10px;
+    padding-bottom: 0px;
+    background: #f5f5f5;
+    background-image: linear-gradient(#f5f5f5,#ffffff);
+    border-radius: 10px;
+    padding-left:25px; 
+} */
+.container a {
+    color:#a27994;
+}
+.container a:hover {
+    color:#a27994;
+    border:none;
+    text-decoration: underline;
+}
+.title{
+    text-align: center;
+    font-weight: 500;
+    padding-top: 140px;
+    font-size: 2em;
+}
+
+.session-header{
+    color: #a27994;
+   /* font-weight: bold;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 15px;*/
+    text-align: center ;
+    margin-top: 20px;
+    font-family: 'LMP';
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight:700;
+}
+.x2 {
+    font-size: 3em;
+    margin-top: 50px;
+}
+.workshops-intro{
+    text-align: center ;
+    margin-top: 20px;
+    font-family: 'LMP';
+    font-size: 1.9em;
+    letter-spacing: 2px;
+    
+}
+.workshop-box{
+   /* border-bottom: 1px white dashed;*/
+    padding-bottom:10px;
+    margin-bottom: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+
+}
+.workshop-title{
+    color: #462959;
+    margin-top: 20px;
+    font-family: 'LMP';
+    font-size: 1.7em;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.description{
+    padding-left: 20px;
+      padding-top: 20px;
+}
+
+.pdescription{
+    padding-left: 20px;
+      padding-top: 30px;
+}
+.limit-workshop-links{
+    padding-left: 40px;
+}
+.strong{
+ color:blue !important;
+}
+
+#down-triangle, #down-triangle-mobile {
+    position: fixed;
+}
+
+.rules {
+    text-align: left;
+    font-size: .6em;
+    margin:0px 20%;
+    font-weight: 300;
+    width:60%;
+}
+.rules li{
+    padding-top:10px;
+}
+
+.prizes-box{
+   /* border-bottom: 1px white dashed;*/
+    padding-bottom:10px;
+    margin:0 9%;
+    margin-bottom: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+
+
+}
+
+
