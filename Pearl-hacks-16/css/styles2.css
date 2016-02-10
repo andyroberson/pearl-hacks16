@@ -386,3 +386,17 @@ a:hover, a:active {
     background: -webkit-linear-gradient(#6076B8, #465685);
     min-height: 200px;
 }
+
+#social a:hover{
+    text-decoration:none;
+    border:0!important;
+  }
+  
+#social a{
+	padding-left:8px;
+	padding-right:8px;
+}
+
+#social {
+	padding-top:10px;
+}
