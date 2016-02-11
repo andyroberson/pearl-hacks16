@@ -53,6 +53,7 @@ a:hover, a:active {
 		text-align: center;
 		color: #ffffff;
 		font-family: 'LMP';
+    margin: 0 3%;
 		letter-spacing: 2px;
 		font-size: 3.5em;
 	}
@@ -79,7 +80,7 @@ a:hover, a:active {
 
 /** First panel - #girl / WATER**/
 #girl {
-	background-color: navy;
+	background: radial-gradient(#00007A,#00003D,#000029,#000014);
   height: 100%;
   padding: 0;
 }
@@ -376,6 +377,7 @@ a:hover, a:active {
 		}
 	}
 
+
 /*fish, seaweed, clams, whatever i feel like :) */
 #animation-section {
   position: relative;
@@ -385,4 +387,18 @@ a:hover, a:active {
     background: -webkit-linear-gradient(#6076B8, #465685);
     background: -webkit-linear-gradient(#6076B8, #465685);
     min-height: 200px;
+}
+
+#social a:hover{
+    text-decoration:none;
+    border:0!important;
+  }
+
+#social a{
+	padding-left:8px;
+	padding-right:8px;
+}
+
+#social {
+	padding-top:10px;
 }
