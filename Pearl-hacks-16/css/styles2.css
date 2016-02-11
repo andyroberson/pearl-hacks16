@@ -53,6 +53,7 @@ a:hover, a:active {
 		text-align: center;
 		color: #ffffff;
 		font-family: 'LMP';
+    margin: 0 3%;
 		letter-spacing: 2px;
 		font-size: 3.5em;
 	}
@@ -79,7 +80,7 @@ a:hover, a:active {
 
 /** First panel - #girl / WATER**/
 #girl {
-	background-color: navy;
+	background: radial-gradient(#00007A,#00003D,#000029,#000014);
   height: 100%;
   padding: 0;
 }
@@ -391,7 +392,7 @@ a:hover, a:active {
     text-decoration:none;
     border:0!important;
   }
-  
+
 #social a{
 	padding-left:8px;
 	padding-right:8px;
